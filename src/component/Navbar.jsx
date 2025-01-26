@@ -31,7 +31,7 @@ const Navbar = () => {
               </span>
             </div>
             <span className="text-3xl cursor-pointer text-[#706f6f]">
-              <FaShoppingCart />
+              
             </span>
           </div>
         </Container>

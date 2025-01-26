@@ -31,3 +31,13 @@ header .footer-wave {
     background-position: 1440px;
   }
 }
+
+
+.skill-animation{
+  animation: animate 4s linear forwards;
+}
+ @keyframes animate{
+  0%{
+    width: 0%;
+  }
+ }

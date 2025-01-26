@@ -1,10 +1,10 @@
 import React from "react";
-import { FaCode, FaMobileAlt, FaPaintBrush } from "react-icons/fa";
+import {FaLaptopCode, FaMobileAlt, FaPaintBrush } from "react-icons/fa";
 import Container from "../layer/Container";
 
 const services = [
   {
-    icon: <FaCode/>,
+    icon: <FaLaptopCode/>,
     title: "Web Development",
     description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis qui saepe unde ullam? Consectetur non voluptas veniam quaerat rem.",
   },
@@ -22,13 +22,13 @@ const services = [
 
 const Services = () => {
   return (
-    <section className="py-16 bg-gray-50">
-        <Container className="px-4 text-center">
+    <section className="pt-16 bg-gray-50 ">
+        <Container className="px-4 text-center pb-16 border-b-[1px] border-[#e3e2e2]">
           
-          <h2 className="text-4xl font-bold text-gray-800 mb-4">
+          <h2 className="text-4xl font-bold text-white mb-4 bg-gradient-to-l from-red-500 to-yellow-400 inline-block px-2 py-1 rounded-md">
             Services
           </h2>
-          <p className="text-gray-600 max-w-2xl mx-auto mb-10">
+          <p className="text-gray-600 text-lg max-w-2xl mx-auto mb-10">
             We provide a wide range of services to help you build, design, and
             grow your digital presence.
           </p>
