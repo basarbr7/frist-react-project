@@ -1,22 +1,22 @@
 import React from "react";
-import bgImg from "../assets/banner.jpg";
-import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
+import bgImg from "../assets/myPic2.png";
+import { FaFacebook, FaInstagram, FaTwitter,FaQuoteLeft } from "react-icons/fa";
+import { MdFormatQuote } from "react-icons/md";
+
 import Container from "../layer/Container";
 
 const Hero = () => {
   return (
     <section className="bg-[#eeeded]">
         <Container className="h-[100vh] flex gap-[150px] items-center">
-          <div className="img w-[400px] h-[520px] rounded-[50%] overflow-hidden outline-dashed outline-[4px] outline-blue-500 hover:outline-[#b74f4f] p-4 bg-[#fd8d1e] hover:bg-[red] transition-all ease-linear duration-300">
-            <img className="h-full w-full object-cover rotate-360" src={bgImg} alt="" />
+          <div className="img w-[400px] h-[520px] flex justify-center items-center rounded-[50%] overflow-hidden outline-dashed outline-[4px] outline-blue-500 hover:outline-[#b74f4f] p-4 bg-[#fd8d1e] hover:bg-[red] transition-all ease-linear duration-300">
+            <img className="  rotate-360" src={bgImg} alt="" />
           </div>
 
           <div className="w-1/2 relative ">
             <div className="absolute top-0 bottom-0 -right-6">
-              <div className="absolute top-0 right-0 w-[100px] h-1 bg-[red]"></div>
-              <div className="absolute bottom-0 right-0 w-[100px] h-1 bg-[#3520d1]"></div>
-              <div className="absolute top-0 right-0 h-[100px] w-1 bg-[#3520d1]"></div>
-              <div className="absolute bottom-0 right-0 h-[100px] w-1 bg-[red]"></div>
+              <div className="absolute top-0 right-0 text-6xl"><MdFormatQuote/></div>
+              
             </div>
             <span className="text-3xl font-medium mb-2">Hi</span>
             <h3 className="text-5xl font-semibold mb-1">
